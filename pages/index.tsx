@@ -25,7 +25,7 @@ const IndexPage: NextPage = () => {
   };
   return (
     <div className={styles.page}>
-      <button onClick={handleClick} className={styles.button}>他のにゃんこも見る</button>
+      <button onClick={handleClick} className={styles.button}>One more cat!</button>
       <div className={styles.flame}>{loading || <img src={imageUrl} className={styles.img} />}</div>
     </div>
   );
